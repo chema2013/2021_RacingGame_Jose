@@ -17,7 +17,7 @@ public class PlayerDamage : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Z)) //if this happens
+        /*if(Input.GetKeyDown(KeyCode.Z)) //if this happens
         {
             TakeDamage(5); //take (this much) damage
         }
@@ -25,8 +25,17 @@ public class PlayerDamage : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.U)) //if this happens
         {
             Healing(5); //take (this much) damage
-        }
+        }*/
     }
+
+    /*void OnTriggerEnter(Collider other)
+    {   //check if tag on collider is equals to harmful
+        if (other.tag == "Harmful")
+            TakeDamage;
+
+        if (other.tag == "Healing")
+            Healing;
+    }*/
 
     void TakeDamage(int damage)
     {
@@ -37,8 +46,7 @@ public class PlayerDamage : MonoBehaviour
         {
             currentHealth = 0;
             //DeathScreen;
-        }
-        
+        }        
     }
 
     /*void DeathScreen
