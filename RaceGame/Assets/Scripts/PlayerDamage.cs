@@ -28,14 +28,16 @@ public class PlayerDamage : MonoBehaviour
         }*/
     }
 
-    /*void OnTriggerEnter(Collider other)
-    {   //check if tag on collider is equals to harmful
+    void OnTriggerEnter(Collider other)
+    {   
+        //check if tag on collider is equals to harmful
         if (other.tag == "Harmful")
-            TakeDamage;
+            TakeDamage(5);
 
         if (other.tag == "Healing")
-            Healing;
-    }*/
+            Healing(5);
+
+    }
 
     void TakeDamage(int damage)
     {
