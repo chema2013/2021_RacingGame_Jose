@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerDamage : MonoBehaviour
 {
+    [SerializeField] private Transform player;
+    [SerializeField] private Transform respawnPoint;
+
     public int maxHealth = 20;
     public int currentHealth;
 
@@ -47,7 +50,7 @@ public class PlayerDamage : MonoBehaviour
         if(currentHealth <= 0)
         {
             currentHealth = 0;
-            //DeathScreen;
+            Respawn();
         }        
     }
 
@@ -63,5 +66,12 @@ public class PlayerDamage : MonoBehaviour
 
         if (currentHealth >= maxHealth) //if current health is greater or equals to max health
             currentHealth = maxHealth; //current health is set to max health limit, cannot become more
+    }
+
+    void Respawn()
+    {
+        player.transform.position = respawnPoint.transform.position;
+        player.transform.rotation = respawnPoint.transform.rotation;
+        Start();
     }
 }
