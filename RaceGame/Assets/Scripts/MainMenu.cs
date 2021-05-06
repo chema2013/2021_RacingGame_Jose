@@ -16,6 +16,7 @@ public class MainMenu : MonoBehaviour {
     [SerializeField] private InputField JoinGameInput;
 
     [SerializeField] private GameObject PlayButtons;
+    [SerializeField] private GameObject MultiplayerMenu;
 
     private void Awake()
     {
@@ -25,6 +26,8 @@ public class MainMenu : MonoBehaviour {
     private void Start()
     {
         UsernameMenu.SetActive(true);
+        MultiplayerMenu.SetActive(false); //hide multiplayer menu & play buttons (single player & multiplayer)
+        PlayButtons.SetActive(false);
     }
 
     //connecting to photon servers (?)
@@ -34,6 +37,7 @@ public class MainMenu : MonoBehaviour {
         Debug.Log("Connected");
     }
 
+    //USERNAME INPUT
     public void ChangeUserNameInput()
     {   //username input required to play game
         if(UsernameInput.text.Length >= 1) //if minimum 1 letter for username
@@ -65,4 +69,26 @@ public class MainMenu : MonoBehaviour {
         Application.Quit();
     }
 
+    public void MultiplayerMenuOpen()
+    {
+        PlayButtons.SetActive(false);
+        MultiplayerMenu.SetActive(true);
+    }
+
+    //CREATE & JOIN GAMES
+    public void CreateGame()
+    {
+        PhotonNetwork.CreateRoom(CreateGameInput.text, new RoomOptions() { maxPlayers = 10 }, null);
+    }
+
+    public void JoinGame()
+    {
+        RoomOptions roomOptions = new RoomOptions();
+        roomOptions.maxPlayers = 10;
+    }
+
+    private void OnJoinedRoom()
+    {
+        PhotonNetwork.LoadLevel("Forest"); //loads named scene
+    }
 }
