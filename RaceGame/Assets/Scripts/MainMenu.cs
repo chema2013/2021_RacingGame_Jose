@@ -75,6 +75,13 @@ public class MainMenu : MonoBehaviour {
         MultiplayerMenu.SetActive(true);
     }
 
+    public void ReturnToMainMenu()
+    {
+        PlayButtons.SetActive(true);
+        MultiplayerMenu.SetActive(false);
+        UsernameMenu.SetActive(true);
+    }
+
     //CREATE & JOIN GAMES
     public void CreateGame()
     {
