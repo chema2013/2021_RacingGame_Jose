@@ -85,6 +85,10 @@ public class MainMenu : MonoBehaviour {
     //CREATE & JOIN GAMES
     public void CreateGame()
     {
+        /*if(CreateGameInput.text == 4)
+        {
+            return;
+        }*/
         PhotonNetwork.CreateRoom(CreateGameInput.text, new RoomOptions() { maxPlayers = 10 }, null);
     }
 
@@ -96,6 +100,6 @@ public class MainMenu : MonoBehaviour {
 
     private void OnJoinedRoom()
     {
-        PhotonNetwork.LoadLevel("Forest"); //loads named scene
+        PhotonNetwork.LoadLevel("ForestMulti"); //loads named scene
     }
 }
