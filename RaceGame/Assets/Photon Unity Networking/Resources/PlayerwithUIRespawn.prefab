@@ -926,10 +926,10 @@ MonoBehaviour:
       snail left","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tilted
       snail right","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"shell_Left","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"shell_right","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 3981502962282410227}
+    - {fileID: 3981502960835483419}
+    - {fileID: 3981502961364436234}
+    - {fileID: 3981502962144504231}
     - {fileID: 2537709087220379933}
     - {fileID: 2537709086932266165}
     - {fileID: 2537709087978187701}
