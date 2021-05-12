@@ -96,6 +96,12 @@ public class MainMenu : MonoBehaviour {
     {
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.maxPlayers = 10;
+        PhotonNetwork.JoinOrCreateRoom(JoinGameInput.text, roomOptions, TypedLobby.Default);
+    }
+
+    public void JoinRandom()
+    {
+        PhotonNetwork.JoinRandomRoom();
     }
 
     private void OnJoinedRoom()
