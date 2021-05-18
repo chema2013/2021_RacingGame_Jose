@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: button_brown
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":100.0,"y":125.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"4cafb45f-cc22-4fdc-a08d-f1168cdbb427","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"7fde9d7b-cfa1-4300-a7f4-89c9d2146322","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-234.0,"y":188.0},"guid":"2addb514-6aec-480c-9ca7-a6fb49458f56","$version":"A","$type":"Bolt.OnButtonClick","$id":"13"},{"kind":"Application","defaultValues":{"name":{"$content":"color","$type":"System.String"}},"position":{"x":30.0,"y":177.0},"guid":"682d2a60-dda0-45ea-8784-5892169ec3ad","$version":"A","$type":"Bolt.SetVariable","$id":"15"},{"type":"System.String","value":{"$content":"brown","$type":"System.String"},"defaultValues":{},"position":{"x":-189.0,"y":279.0},"guid":"adfd86ae-1196-49c4-8c45-8719ed3d1a2c","$version":"A","$type":"Bolt.Literal","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"90798d22-88be-4660-9fba-115039b3dd99","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"output","destinationUnit":{"$ref":"15"},"destinationKey":"input","guid":"d44f9e18-4a8e-41f6-93d5-cbd59f81d56f","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: button_lila
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":94.0,"y":131.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"75f36944-c552-49e7-b876-9ebc13070a30","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-202.0,"y":-57.0},"guid":"4333e6ed-dff3-4fa7-b351-b443018ba4c3","$version":"A","$type":"Bolt.Update"},{"kind":"Application","defaultValues":{"name":{"$content":"color","$type":"System.String"}},"position":{"x":74.0,"y":48.0},"guid":"94f6fcc6-a174-4efa-9761-fc8e1ef15f37","$version":"A","$type":"Bolt.SetVariable","$id":"13"},{"type":"System.String","value":{"$content":"lila","$type":"System.String"},"defaultValues":{},"position":{"x":-185.0,"y":166.0},"guid":"a93f5c71-df24-424b-8837-b83ad102a4a9","$version":"A","$type":"Bolt.Literal","$id":"15"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-230.0,"y":50.0},"guid":"386807b6-d248-4611-9f6a-72bb8343a623","$version":"A","$type":"Bolt.OnButtonClick","$id":"17"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"046178be-3b41-4b4e-84de-7d58504ccd34","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"66cab4f2-fafc-4974-a60a-b021a27b396c","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

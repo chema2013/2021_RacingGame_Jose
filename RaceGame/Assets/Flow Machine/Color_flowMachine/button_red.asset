@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: button_red
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"6d86c83a-725e-45b3-bcbc-455031b31622","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"6a4d7993-fbd9-45e2-a072-5f1c4f100c56","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-160.0,"y":206.0},"guid":"73eb5b40-72fc-48b6-8e95-8d75392b4806","$version":"A","$type":"Bolt.OnButtonClick","$id":"13"},{"kind":"Application","defaultValues":{"name":{"$content":"color","$type":"System.String"}},"position":{"x":200.0,"y":111.0},"guid":"86f73cef-c1ad-4583-817e-67515986d8a0","$version":"A","$type":"Bolt.SetVariable","$id":"15"},{"type":"System.String","value":{"$content":"red","$type":"System.String"},"defaultValues":{},"position":{"x":46.0,"y":276.0},"guid":"e2b4289f-8e48-48a3-b6ed-faa16242fdff","$version":"A","$type":"Bolt.Literal","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"9d1fe3a5-3086-431f-9b94-7e805a06e738","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"output","destinationUnit":{"$ref":"15"},"destinationKey":"input","guid":"373e0a99-f0dc-4ee2-b910-d579cec5905f","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
