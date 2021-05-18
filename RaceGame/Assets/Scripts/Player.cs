@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Bolt;
+using Ludiq;
 
 public class Player : Photon.MonoBehaviour
 {
     public PhotonView photonView;
     public GameObject PlayerCamera;
     public Text PlayerNameText; //to show username
+    private IGraphRoot Movement;
+    
 
     private void Awake()
     {
@@ -27,6 +31,6 @@ public class Player : Photon.MonoBehaviour
 
     private void CheckInput()
     {
-
+        var graphReference = GraphReference.New(Movement, true);
     }
 }
