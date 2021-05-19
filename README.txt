@@ -10,12 +10,14 @@
 
 	--- ADDITIONAL HELP ---
 	Game Development course Su2021
+	Prof. Florian Berger
 
 	--- TOOLS & ASSETS ---
 	Bolt Visual Scripting (scripting main character movement)
 	Photon Network PUN (multiplayer)
 	Path Creator (snail oponent)
 	Too Many Items: Trophies (trophie for winning)
+	Blender (modeling certain assets)
 
 Path Creator
         This package is Free and contains some scripts and the path editor in which you can assign which object is going to follow that path.
