@@ -10,7 +10,6 @@ public class Player : Photon.MonoBehaviour
     public PhotonView photonView;
     public GameObject PlayerCamera;
     public Text PlayerNameText; //to show username
-    private IGraphRoot Movement;
     
 
     private void Awake()
@@ -31,6 +30,20 @@ public class Player : Photon.MonoBehaviour
 
     private void CheckInput()
     {
-        var graphReference = GraphReference.New(Movement, true);
+        //transform.position
+        if (Input.GetKey(KeyCode.W))
+            CustomEvent.Trigger(gameObject, "WPressNetwork");
+
+        if (Input.GetKey(KeyCode.S))
+            CustomEvent.Trigger(gameObject, "SPressNetwork");
+
+        if (Input.GetKey(KeyCode.Space))
+            CustomEvent.Trigger(gameObject, "SpacePressNetwork");
+
+        if (Input.GetKey(KeyCode.A))
+            CustomEvent.Trigger(gameObject, "APressNetwork");
+
+        if (Input.GetKey(KeyCode.S))
+            CustomEvent.Trigger(gameObject, "DPressNetwork");
     }
 }
