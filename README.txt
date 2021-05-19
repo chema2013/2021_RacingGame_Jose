@@ -1,6 +1,6 @@
 --- CREDITS ---
 	--- AUTHORS ---
-	Jose Garavito
+	Jose Pardo
 	Samuel Gil
 	Sunaina Miller
 
