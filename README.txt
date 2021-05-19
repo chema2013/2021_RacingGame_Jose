@@ -1,7 +1,7 @@
 --- CREDITS ---
 	--- AUTHORS ---
 	Jose Garavito
-	Samuel Rosas
+	Samuel Gil
 	Sunaina Miller
 
 	--- CO AUTHORS--- 
@@ -31,3 +31,18 @@ Too Many Items: Trophies
 Photon Unity Networking (PUN)
 	This package is a re-implementation of Unity 4's Networking, using Photon.
 	Also included: A setup wizard, demo scenes, documentation and Editor extensions.
+	
+Environment Pack: Free Forest Sample
+    This free pack is a collected sample of assets from Supercyan asset pack Environment Pack:
+	Forest (https://assetstore.unity.com/packages/3d/environments/landscapes/environment-pack-forest-150749).
+	With this pack you can create atmospheric forest themed environments with the beautifully hand painted objects. 
+	
+Low Poly Nature - FREE Vegetation
+    FREE Vegetation is a free pack of Low Poly Nature Series.The package contains assets of vegetation ready to use for PC or mobile.
+	
+Low Poly Fence Pack
+    Contains 16 low poly fences as .dae (Collada) mesh files and ready-to-use prefabs. Also contains three animated fence doors with a controller script.
+	
+FREE Skybox Extended Shader
+    Polyverse Skies (http://u3d.as/ZXW) • Low poly skybox shaders
+	
