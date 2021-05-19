@@ -611,7 +611,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 438, y: -225}
+  m_AnchoredPosition: {x: 371, y: -241}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &568993107
@@ -1050,14 +1050,14 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"purple_shell","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"blue_shell","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"bGreen_shell","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"brown_shell","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gray_shell","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"green_shell","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lila_shell","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"red_shell","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 7863016421670165873}
-    - {fileID: 6774346785236503345}
-    - {fileID: 5249775866291321793}
-    - {fileID: 7077459403020577750}
-    - {fileID: 8825808374350054192}
-    - {fileID: 1125697495084580093}
-    - {fileID: 8101172531868809607}
-    - {fileID: 4409998358135598146}
+    - {fileID: 1803710967766114352}
+    - {fileID: 3032130728970073712}
+    - {fileID: 4381414211313206912}
+    - {fileID: 1598555230282208919}
+    - {fileID: 1039359148415254129}
+    - {fileID: 8901467739567833532}
+    - {fileID: 322639772422718662}
+    - {fileID: 5270456705897992451}
 --- !u!4 &1821362415
 Transform:
   m_ObjectHideFlags: 0
@@ -1592,7 +1592,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: f91ab6c14fbcf6d4b8a8a592ed6e408e, type: 3}
+  - {fileID: 2100000, guid: a691bf77fe72fad438dd9b81a319684b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
