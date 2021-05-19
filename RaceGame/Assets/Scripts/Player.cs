@@ -29,21 +29,38 @@ public class Player : Photon.MonoBehaviour
     }
 
     private void CheckInput()
-    {
-        //transform.position
-        if (Input.GetKey(KeyCode.W))
-            CustomEvent.Trigger(gameObject, "WPressNetwork");
+    {   //transform.position
+        var movement = new Vector3();
+        
+            if (Input.GetKey(KeyCode.W))
+            {
+                CustomEvent.Trigger(gameObject, "WPressNetwork");
 
-        if (Input.GetKey(KeyCode.S))
-            CustomEvent.Trigger(gameObject, "SPressNetwork");
+            }
 
-        if (Input.GetKey(KeyCode.Space))
-            CustomEvent.Trigger(gameObject, "SpacePressNetwork");
+            if (Input.GetKey(KeyCode.S))
+            {
+                CustomEvent.Trigger(gameObject, "SPressNetwork");
 
-        if (Input.GetKey(KeyCode.A))
-            CustomEvent.Trigger(gameObject, "APressNetwork");
+            }
 
-        if (Input.GetKey(KeyCode.S))
-            CustomEvent.Trigger(gameObject, "DPressNetwork");
-    }
+            if (Input.GetKey(KeyCode.Space))
+            {
+                CustomEvent.Trigger(gameObject, "SpacePressNetwork");
+
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                CustomEvent.Trigger(gameObject, "APressNetwork");
+
+            }
+
+            if (Input.GetKey(KeyCode.S))
+            {
+                CustomEvent.Trigger(gameObject, "DPressNetwork");
+
+            }
+        
+    }    
 }

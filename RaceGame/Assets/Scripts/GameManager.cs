@@ -20,11 +20,11 @@ public class GameManager : MonoBehaviour
 
     public void SpawnPlayer()
     {
-        float randomValue = Random.Range(-1, 1); //random range where player will spawn
+        //float randomValue = Random.Range(-1, 1); //random range where player will spawn
         /*PlayerPrefab.transform.position = RespawnPoint.transform.position;
         PlayerPrefab.transform.rotation = RespawnPoint.transform.rotation;*/
 
-        PhotonNetwork.Instantiate(PlayerPrefab.name, new Vector3(this.transform.position.x * randomValue, this.transform.position.y), Quaternion.identity, 0);
+        PhotonNetwork.Instantiate(PlayerPrefab.name, Vector3.zero, Quaternion.identity, 0);
         GameCanvas.SetActive(false);
         SceneCamera.SetActive(false); //scene camera off when player spawned
         //PlayerUI.SetActive(true);
