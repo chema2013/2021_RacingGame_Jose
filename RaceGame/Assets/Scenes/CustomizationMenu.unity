@@ -1789,8 +1789,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 0351ac2b3e73c80419756d09f3073db7, type: 2}
 --- !u!114 &1407002946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2133,14 +2134,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747125250}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.42405516, z: -0, w: 0.9056364}
   m_LocalPosition: {x: 0, y: 0, z: 59.5}
   m_LocalScale: {x: 0.19117558, y: 0.19117558, z: 0.19117558}
   m_Children:
   - {fileID: 1917725648}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 50.182, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 37.9, y: 5.2307935}
